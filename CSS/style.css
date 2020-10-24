@@ -9,9 +9,9 @@ body{
 	display: block;
 }
 nav{
-	float: left;
+	float: right;
 	display: inline-block;
-	width: 775px;
+	margin-right: 70px;
 	vertical-align: top;
 	padding-right: 4px;
 	padding-left: 109px;
@@ -21,23 +21,17 @@ li{
 	font-size: 48px;
 	color: #FFFFFF;
 	font-family: Myriadpro Regular;
-}
-li:after {
-	content: '';
-	width: 34px;
-	display: inline-block;
+	margin-left: 34px;
 }
 .clear{
-	clear: both;
+	clear: right;
 }
 .container{
 	margin: 60px 0 80px 0
 }
 .box img{
 	width: 152px;
-	object-fit: cover;	
-	display: inline-block;
-	vertical-align: top;
+	object-fit: cover;
 }
 .box{
 	height: 356px;
@@ -48,14 +42,10 @@ li:after {
 	padding: 20px 30px 20px 25px;
 }
 .box p{
-	display: inline-block;
-	vertical-align: top;
 	text-align: left;
 	font-size: 14px;
-	max-width: 270px;
 	color: #006837;
 	font-family: Segoe UI;
-
 }
 .box:first-child {
 	float: left;
@@ -73,12 +63,6 @@ li:after {
 }
 .box:nth-child(2) img {
 	float: left;
-}
-.box:first-child p {
-	float: left;
-}
-.box:nth-child(2) p {
-	float: right;
 }
 .box:after {
 	content: '';
