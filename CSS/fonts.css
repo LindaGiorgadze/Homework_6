@@ -1,0 +1,16 @@
+@font-face {font-family: "Segoe UI";
+  src: url("../fonts/Segoe_UI.eot"); /* IE9*/
+  src: url("../fonts/Segoe_UI.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Segoe_UI.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/Segoe_UI.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Segoe_UI.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/Segoe_UI.svg#Segoe UI") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "Myriadpro Regular";
+  src: url("../fonts/MYRIADPRO-REGULAR.eot"); /* IE9*/
+  src: url("../fonts/MYRIADPRO-REGULAR.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/MYRIADPRO-REGULAR.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/MYRIADPRO-REGULAR.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/MYRIADPRO-REGULAR.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/MYRIADPRO-REGULAR.svg#Segoe UI") format("svg"); /* iOS 4.1- */
+}

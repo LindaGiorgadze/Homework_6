@@ -20,10 +20,11 @@ li{
 	display: inline-block;
 	font-size: 48px;
 	color: #FFFFFF;
+	font-family: Myriadpro Regular;
 }
 li:after {
 	content: '';
-	width: 38px;
+	width: 34px;
 	display: inline-block;
 }
 .clear{
@@ -37,7 +38,6 @@ li:after {
 	object-fit: cover;	
 	display: inline-block;
 	vertical-align: top;
-	margin: 0 20px 35px 20px;
 }
 .box{
 	height: 356px;
@@ -54,6 +54,7 @@ li:after {
 	font-size: 14px;
 	max-width: 270px;
 	color: #006837;
+	font-family: Segoe UI;
 
 }
 .box:first-child {
