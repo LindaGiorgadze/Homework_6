@@ -1,0 +1,86 @@
+body{
+	max-width: 1286px;
+	background-color: #56836F;
+	padding: 49px 55px 100px 70px;
+}
+.logo{
+	width: 203px;
+	float: right;
+	display: block;
+}
+nav{
+	float: left;
+	display: inline-block;
+	width: 775px;
+	vertical-align: top;
+	padding-right: 4px;
+	padding-left: 109px;
+}
+li{
+	display: inline-block;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+li:after {
+	content: '';
+	width: 38px;
+	display: inline-block;
+}
+.clear{
+	clear: both;
+}
+.container{
+	margin: 60px 0 80px 0
+}
+.box img{
+	width: 152px;
+	object-fit: cover;	
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px 35px 20px;
+}
+.box{
+	height: 356px;
+	width: 520px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #FCEE21;
+	padding: 20px 30px 20px 25px;
+}
+.box p{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	font-size: 14px;
+	max-width: 270px;
+	color: #006837;
+
+}
+.box:first-child {
+	float: left;
+}
+.box:nth-child(2) {
+	float: right;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.box:first-child img {
+	float: right;
+}
+.box:nth-child(2) img {
+	float: left;
+}
+.box:first-child p {
+	float: left;
+}
+.box:nth-child(2) p {
+	float: right;
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
