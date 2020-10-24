@@ -27,7 +27,8 @@ li{
 	clear: right;
 }
 .container{
-	margin: 60px 0 80px 0
+	margin: 60px auto;
+	max-width: 1160px;
 }
 .box img{
 	width: 152px;
@@ -36,8 +37,6 @@ li{
 .box{
 	height: 356px;
 	width: 520px;
-	display: inline-block;
-	vertical-align: top;
 	background-color: #FCEE21;
 	padding: 20px 30px 20px 25px;
 }
